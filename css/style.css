@@ -1,7 +1,28 @@
-body,p {
+body,p,ul {
     margin: 0;
     padding: 0;
 }
 p {
     background-color: #99f;
+}
+ul.nav {
+    overflow: hidden;
+    list-style-type: none;
+}
+ul.nav li {
+    float:left;
+    width: 66px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin-right:10px;
+}
+ul.nav li a{
+    display: block;
+    text-decoration: none;
+    background-color: #904;
+    color:#fff;
+}
+ul.nav li a:hover{
+    background-color: #606;
 }
